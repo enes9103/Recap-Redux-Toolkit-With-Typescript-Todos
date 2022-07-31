@@ -2,13 +2,11 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { v4 } from "uuid";
 // uuid package created to generate string unique id for todo
 
-
 export interface Todo {
     id: string;
     title: string;
     completed: boolean;
 }
-
 
 const initialState: Todo[] = [];
 
